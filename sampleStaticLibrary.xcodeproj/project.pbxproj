@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBE616422991266F00223AB2 /* sampleStaticLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE616412991266F00223AB2 /* sampleStaticLibrary.swift */; };
+		DBE6302329929F8A00223AB2 /* AnotherSampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6302229929F8A00223AB2 /* AnotherSampleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DBE6163E2991266F00223AB2 /* libsampleStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsampleStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE616412991266F00223AB2 /* sampleStaticLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleStaticLibrary.swift; sourceTree = "<group>"; };
+		DBE6302229929F8A00223AB2 /* AnotherSampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherSampleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE616412991266F00223AB2 /* sampleStaticLibrary.swift */,
+				DBE6302229929F8A00223AB2 /* AnotherSampleClass.swift */,
 			);
 			path = sampleStaticLibrary;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE6302329929F8A00223AB2 /* AnotherSampleClass.swift in Sources */,
 				DBE616422991266F00223AB2 /* sampleStaticLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
